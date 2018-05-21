@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/holo_orange_dark"
+    android:orientation="horizontal">
+
+
+    <ImageView
+        android:id="@+id/imgCapa"
+        android:layout_width="60dp"
+        android:layout_height="80dp"
+        android:layout_margin="8dp"
+        app:srcCompat="?android:attr/fingerprintAuthDrawable" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txtTitulo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Livro Legal"
+            android:textAllCaps="true"
+            android:textColor="@color/colorPrimary"
+            android:textSize="18dp"
+            android:textStyle="bold"
+
+            />
+
+        <TextView
+            android:id="@+id/txtAutores"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="italic|bold"
+            tools:text="Autores" />
+
+
+        <TextView
+            android:id="@+id/txtDescripition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Descrição "
+            android:textColor="@color/primaryTextColor"
+            tools:text="Esse Livro é muito Legal. Leiam" />
+
+        <TextView
+            android:id="@+id/txtEditora"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Editora"
+            android:textStyle="italic|bold"
+            tools:text="Bookman" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
