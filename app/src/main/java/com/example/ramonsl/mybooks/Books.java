@@ -58,7 +58,7 @@ public class Books implements Serializable {
 
 
         } catch (Exception ex) {
-            Log.e("Error", "Json inavalido");
+            Log.e("Error", "Json invalido");
             return null;
         }
         return null;
